@@ -1,0 +1,428 @@
+@font-face {
+  font-family: 'Graphik LCG';
+  src: url('../fonts/GraphikLCG-Medium.woff2') format('woff2'),
+    url('../fonts/GraphikLCG-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+    url('../fonts/Gilroy-Regular.woff') format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+    url('../fonts/Gilroy-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: THICCCBOI;
+  src: url('../fonts/THICCCBOI-Medium.woff2') format('woff2');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.Menu_Bar {
+  width: 1520px;
+  min-height: 60px;
+  /* left: 200px; */
+  top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  
+}
+
+.Logo {
+  width: 33px;
+  height: 40px;
+}
+
+.Hero_Title_text {
+  width: 556px;
+  height: 184px;
+  left: 0px;
+  top: 85px;
+
+  font-family: THICCCBOI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 92px;
+
+  color: #1B1C23;
+}
+
+a  {
+  text-decoration: none;
+}
+
+.nav_bar  {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.M_Text {
+  white-space: nowrap;
+  font-family: THICCCBOI;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #1B1C23;
+}
+
+.Menu_Text {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Button {
+  width: 167px;
+  height: 60px;
+  left: 1353px;
+  background: #FF694B;
+  box-shadow: 0px 12px 30px rgba(255, 105, 75, 0.35);
+
+  font-family: THICCCBOI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+
+  text-align: center;
+
+  color: #FFFFFF;
+  border: 0px;;
+}
+
+.Hero_Banner {
+  width: 1520px;
+  height: 631px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Short_title {
+  display: flex;
+  align-items: center;
+}
+
+.Hero_Title {
+  width: 556px;
+  height: 184px;
+}
+
+.Line_4 {
+  width: 50px;
+  height: 0px;
+
+  border: 1px solid #FF694B;
+  transform: rotate(-180deg);
+}
+
+.Line_text {
+  height: 21px;
+  margin-left: 15px;
+  font-family: THICCCBOI;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #FF694B;
+}
+
+.Hero_Baner_text_block {
+  display: flex;
+  align-items: center;
+}
+
+.Line_6 {
+  width: 0px;
+  height: 130px;
+
+  border: 1px solid #C8C8C8;
+}
+
+.Hero_Baner_text {
+  width: 450px;
+  height: 153px;  
+  padding-left: 21px;
+
+  font-family: THICCCBOI;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  color: #757683;
+}
+
+.Hire_Button {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.bg {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+
+  background: #1B1C23;
+  border-radius: 0px 10px 0px 0px;
+}
+
+.text_Hire_Me_Now  {
+  font-family: THICCCBOI;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: 15px;
+
+  color: #1B1C23;
+}
+
+.Arrow  {
+  margin: auto;
+}
+
+.Line_text14 {
+  margin-top: 20px;
+
+  font-family: THICCCBOI;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  
+  color: #757683;
+}
+
+.Line_5 {
+  width: 412px;
+  border: 1px solid #C8C8C8;
+}
+
+.Proudly_text_block {
+  margin-top: 50px;
+}
+
+.Hero_Illustration {
+  position: absolute;
+  width: 789px;
+  height: 628px;
+  margin-left: 566px;
+}
+
+.Our_Projects {
+  position: absolute;
+  width: 202px;
+  height: 130px;
+  margin-left: 1318px;
+  margin-top: 341px;
+}
+
+.Line_1 {
+  width: 35px;
+  border: 1px solid #757683;
+}
+
+.Our_Projects_title {
+  font-family: THICCCBOI;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  
+  color: #757683;
+}
+
+.Our_Projects_text {
+  width: 220px;
+  margin-top: 10px;
+  font-family: THICCCBOI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 25px;
+  
+  color: #1B1C23;
+}
+
+.Our_Projects_Explore {
+  font-family: THICCCBOI;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  
+  color: #FF694B;
+}
+
+.Projects_block {
+  width: 1520px;
+  margin-top: 160px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Projects_block_item {
+  width: 750px;
+  height: 814px;
+  background: #FDF5EF;
+}
+
+.background_color1{
+  background: #F3F1FA;
+}
+
+.Projects_block_item_margin:not(:last-child){
+  margin-right: 20px;
+}
+
+.Projects_block_title {
+  width: 240px;
+  margin-left: 55px;
+  margin-top: 55px;
+}
+
+.Projects_block_title_text1 {
+  font-family: THICCCBOI;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  
+  color: #757683;
+}
+
+.Projects_block_title_text2 {
+  font-family: THICCCBOI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 40px;
+  
+  color: #1B1C23;
+}
+
+.Projects_Illustration {
+  margin-top: 55px;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.Footer {
+  width: 1520px;
+  margin-top: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('../img/Bg.png');
+}
+
+.Footer_logo {
+  display: block;
+  width: 66px;
+  height: 80px;
+  margin-top: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.Footer_text_logo {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: THICCCBOI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 55px;
+  text-align: center;
+
+  color: #1B1C23;
+}
+
+.Footer_text {
+  width: 486px;
+
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: THICCCBOI;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  
+  text-align: center;
+  color: #757683;  
+}
+
+.Social_Icon {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.Social_Icon_item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.Footer_Copyright_text {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: THICCCBOI;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  text-align: center;
+  
+  color: #899098;
+}
