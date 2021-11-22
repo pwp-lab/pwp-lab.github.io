@@ -6,21 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/style_nav_menu.css">
 
-    <header class="Menu_Bar">
-        <img src="./img/Logo.svg" class="Logo">
-      <nav class="Menu_Text">
-            <ul class="nav_bar">  
-                <li class="nav-item"><a href="#" class="M_Text">Start</a></li>
-                <li class="nav-item"><a href="#" class="M_Text">Services</a></li>
-                <li class="nav-item"><a href="#" class="M_Text">Portfolio</a></li>
-                <li class="nav-item"><a href="#" class="M_Text">News</a></li>
-                <li class="nav-item"><a href="#" class="M_Text">Contact</a></li>
-            </ul>
-        </nav>
-        <button class="Button">Back A Call</button>
+
+    <header>
+        <div class="container">
+            
+            <a class="nav-logo" href="#" id="logo" target="_blank"><img src="./img/Logo.svg" class="Logo"></a>
+            <label for="toggle-1" class="toggle-menu"><img src="./img/menu.png" class="Logo"></label>
+            <input type="checkbox" id="toggle-1">
+            <nav>
+                <ul>
+                    <li class="nav-item"><a href="#" class="M_Text">Start</a></li>
+                    <li class="nav-item"><a href="#" class="M_Text">Services</a></li>
+                    <li class="nav-item"><a href="#" class="M_Text">Portfolio</a></li>
+                    <li class="nav-item"><a href="#" class="M_Text">News</a></li>
+                    <li class="nav-item"><a href="#" class="M_Text">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-Button"><button class="Button">Back A Call</button></div>
+            
+        </div>
     </header>
-
+    
 </head>
 <body>
     <div class="main-content">
@@ -79,7 +87,7 @@
             <img src="./img/Logo.svg" class="Footer_logo">
             <p class="Footer_text_logo">Lets Talk with Me!</p>
             <p class="Footer_text">I am always open to discuss your project, improve your online presence or help with your UX/UI design</p>
-            <div style="margin-left: 490px;">
+            <div">
                 <ul class="Social_Icon">  
                     <li class="Social_Icon_item"><a href="#"><img src="./img/Fb.svg"></a></li>
                     <li class="Social_Icon_item"><a href="#"><img src="./img/Twitter.svg"></a></li>
@@ -87,20 +95,24 @@
                     <li class="Social_Icon_item"><a href="#"><img src="./img/Linkedin.svg"></a></li>
                 </ul>
             </div>
-            <nav class="Menu_Text">
-                <ul class="nav_bar">  
-                    <li class="nav-item"><a href="#" class="M_Text">Start</a></li>
-                    <li class="nav-item"><a href="#" class="M_Text">Services</a></li>
-                    <li class="nav-item"><a href="#" class="M_Text">Portfolio</a></li>
-                    <li class="nav-item"><a href="#" class="M_Text">News</a></li>
-                    <li class="nav-item"><a href="#" class="M_Text">Contact</a></li>
-                </ul>
-            </nav>
+            
             
         </div>
-        <p class="Footer_Copyright_text">Copyright © 2021 by Md Shamim Hossain. All Rights Reserved</p>
+        
         
     </div>
+    <div class="container">
+        <nav class="Menu_Text">
+            <ul class="nav_bar">  
+                <li class="nav-item"><a href="#" class="M_Text">Start</a></li>
+                <li class="nav-item"><a href="#" class="M_Text">Services</a></li>
+                <li class="nav-item"><a href="#" class="M_Text">Portfolio</a></li>
+                <li class="nav-item"><a href="#" class="M_Text">News</a></li>
+                <li class="nav-item"><a href="#" class="M_Text">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <p class="Footer_Copyright_text">Copyright © 2021 by Md Shamim Hossain. All Rights Reserved</p>
 
     
 </body>
