@@ -6,7 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/style_slider.css">
     <link rel="stylesheet" href="./style/style_nav_menu.css">
+
+
+    <link rel="stylesheet" href="./style/chief-slider-with-prefixes.min.css">
+    <script src="./js/chief-slider.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const slider = new ChiefSlider('.slider', {
+            loop: false
+          });
+        });
+    </script>
 
 
     <header>
@@ -65,6 +78,36 @@
             
             
         </div>
+
+        <div class="container_slider">
+            <div class="slider">
+                <div class="slider__container">
+                  <div class="slider__wrapper">
+                    <div class="slider__items">
+                      <div class="slider__item">
+                        <!-- Контент 1 слайда -->
+                      </div>
+                      <div class="slider__item">
+                        <!-- Контент 2 слайда -->
+                      </div>
+                      <div class="slider__item">
+                        <!-- Контент 3 слайда -->
+                      </div>
+                      <div class="slider__item">
+                        <!-- Контент 4 слайда -->
+                      </div>
+                      <div class="slider__item">
+                        <!-- Контент 5 слайда -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a href="#" class="slider__control" data-slide="prev"></a>
+                <a href="#" class="slider__control" data-slide="next"></a>
+              </div>
+        </div>
+       
+
 
         <div class="Projects_block">
             <div class="Projects_block_item Projects_block_item_margin">

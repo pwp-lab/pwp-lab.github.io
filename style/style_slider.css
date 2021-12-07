@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.container_slider {
+  max-width: 1520px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slider__container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.slider__items {
+  counter-reset: slide;
+}
+
+.slider__item {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  counter-increment: slide;
+  height: 450px;
+  position: relative;
+}
+
+.slider__item::before {
+  content: counter(slide) "/5";
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #fff;
+  font-style: italic;
+  font-size: 32px;
+  font-weight: bold;
+  display: block;
+}
+
+.slider__item:nth-child(1) {
+  background-color: #f44336;
+  background-image: url("../img/slide1.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.slider__item:nth-child(2) {
+  background-color: #9c27b0;
+  background-image: url("../img/slide2.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.slider__item:nth-child(3) {
+  background-color: #3f51b5;
+  background-image: url("../img/slide3.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.slider__item:nth-child(4) {
+  background-color: #03a9f4;
+  background-image: url("../img/slide4.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.slider__item:nth-child(5) {
+  background-color: #4caf50;
+  background-image: url("../img/slide5.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
